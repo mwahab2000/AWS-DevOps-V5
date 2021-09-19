@@ -12,6 +12,7 @@ describe('Employee Remover', () => {
         } as any),
     );
 
+    
     const employeeRepository = new MockEmployeeRepository();
 
     it('should activate the employee from the repository', async () => {
